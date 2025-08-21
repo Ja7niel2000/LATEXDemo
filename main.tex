@@ -1,0 +1,64 @@
+\documentclass{beamer}
+\definecolor{colorA}{RGB}{216,217,20}
+\definecolor{colorB}{RGB}{12,45,72}
+\definecolor{colorC}{RGB}{29,29,166}
+\setbeamercolor*{palette primary}{bg=colorC}
+\setbeamercolor*{palette secondary}{bg=colorB, fg = white}
+\setbeamercolor*{palette tertiary}{bg=colorA, fg = white}
+\setbeamercolor*{titlelike}{fg=colorA}
+\setbeamercolor*{background canvas}{bg=colorB}
+\setbeamercolor{normal text}{fg=white}  % todo el texto azul
+
+\usepackage[numbers]{natbib}
+\usepackage{graphicx} % Required for inserting images
+
+
+
+\title{\Huge Tarea semanal 2\\[-1cm]}
+\author{Jatniel Carranza Bolaños\\[-0.9cm]}
+\date{Agosto 2025}
+\titlegraphic{\includegraphics[height=2cm]{img/Trifuerza.svg.png}}
+
+\begin{document}
+    % Parte 1, Portada
+    \begin{frame}
+        \titlepage
+        \vspace{0.5cm}
+        \begin{center}
+            {\small \textit{\cite{zeldaImg}}(La TriFuerza, elemento representativo de la saga The Legend of Zelda de Nintendo)}
+        \end{center}
+    \end{frame}
+    
+    %Parte 2, Teorema
+    \begin{frame}{Teorema}
+        \begin{center}
+            \text{\cite{analisisMatematico}}{$\forall a \in R, -a=-1(a)   $}
+        \end{center}
+          Este teorema pertenece al área de álgebra.\\ 
+          Trata sobre las propiedades de los números reales y cómo se comportan las operaciones básicas, en este caso la multiplicación y la adición.\\ 
+          Lo elegí porque fue el primer teorema que pude demostrar.
+    \end{frame}
+    
+    %Parte 3, Ecuación
+    \begin{frame}{Resolver la ecuación $\tfrac{3}{4}x+9=15$}
+        \begin{align*}
+            \tfrac{3}{4}x+9 &= 15 &\textit{Ecuación Original} \\
+            4(\tfrac{3}{4}x+9) &= 15 \cdot 4 &\textit{Multiplicación por 4}\\
+            (4 \cdot \tfrac{3}{4}x) + (4 \cdot 9) &= 60 &\textit{Distributiva}\\
+            3x+36&=60&\textit{Simplificación}\\
+            3x+36-36 &=60 -36 & \textit{Restando 36}\\
+            3x &=24 & \textit{Simplificación}\\
+            \tfrac{1}{3}\cdot3x &=\tfrac{1}{3}\cdot24 & \textit{Multiplicando por $\tfrac{1}{3}$}\\
+            x &=8& \text{Resultado final}
+        \end{align*}
+    \end{frame}
+    % BIBLIOGRAFÍA
+    \begin{frame}[allowframebreaks]
+        \frametitle{Bibliografía}
+        \bibliographystyle{plainnat}
+        \bibliography{referencias}
+    \end{frame}
+
+
+    
+\end{document}
